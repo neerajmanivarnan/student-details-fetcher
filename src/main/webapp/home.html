@@ -1,0 +1,123 @@
+<!-- <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" isELIgnored="false" %> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your JSP Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+
+    </style>
+
+</head>
+<body>
+    <header>
+        Student Details
+    </header>
+    <main>
+        <div class="getAllStudents">
+            
+            <div class="get-head">
+                <div class="close">
+
+                </div>
+                <div class="screen">
+
+                </div>
+                <div class="min">
+
+                </div>
+            </div>
+            <div class="get-all">
+                
+                <section class="get-students-all">
+                    <form action="getStudents" method="get">
+                        Click the button to Get the details of the entire students
+                        <div class="btn-cls">
+                            <input type="submit" class="btn">
+                        </div>
+                    </form>
+                </section>
+                
+                
+            </div>
+            
+        </div>
+
+        <div class="getOneStudent">
+            <div class="get-head">
+                <div class="close">
+
+                </div>
+                <div class="screen">
+
+                </div>
+                <div class="min">
+
+                </div>
+            </div>
+            <div class="get-one">
+                <section class="get-student-id">
+                    <form action="getStudent" method="get">
+                        <div class="textp">
+                            Enter the uid of the students
+                        </div>
+                        <div class="text-field">
+                            <input type="text" name="uid" id="text-uid">
+                        </div>
+                        <div class="btn-cls">
+                            <input type="submit" class="btn">
+                        </div>
+                        
+                    </form>
+                </section>
+            </div>
+        </div>
+        
+        <div class="postOneStudent">
+            <div class="get-head">
+                <div class="close">
+
+                </div>
+                <div class="screen">
+
+                </div>
+                <div class="min">
+
+                </div>
+            </div>
+            <div class="newpost">
+                <section class="post-students-all">
+                    <form action="getStudent" method="post">
+                        <div class="textp" >
+                            Enter the uid of the student :
+                        </div>
+                        <input type="text" name="uid">
+                        <div class="textp">
+                            Enter the name of the student :
+                        </div>
+                        <input type="text" name="name">
+                        <input type="submit" class="btn">
+                    </form>
+                </section>
+            </div>
+                
+            
+        </div>
+    </main>
+
+
+   
+    
+
+    
+
+    
+
+
+   
+   
+
+</body>
+</html>
