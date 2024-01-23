@@ -2,13 +2,14 @@
 
 ## Description
 
-This is a simple Spring Boot project that fetches details from a student database using Spring REST. 
+This is a simple Spring Boot project that fetches details from a student database using Spring REST and react as frontend. 
 
 ## Stack Used
 
 - Spring Boot
 - Spring REST
 - Spring JPA
+- React
 - Hibernate
 - Apache Aiven (For hosting MySQL)
 - Apache Tomcat
