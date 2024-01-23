@@ -1,194 +1,192 @@
-header{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    background-color: rgb(53, 53, 53);
-    color: aliceblue;
-    font-size: 25px;
-    font-weight: bold;
+header {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgb(53, 53, 53);
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+body {
+  margin: 0;
 }
 
-footer{
-    background-color: rgb(53, 53, 53);
+footer {
+  background-color: rgb(53, 53, 53);
 }
-.get-all{
-    width: 300px;
-    height: 200px;
-    display: grid;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    justify-content: center;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-
-
-.get-one{
-    width: 300px;
-    height: 200px;
-    display: grid;
-    align-items: center;
-    /* margin: px; */
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    justify-content: center;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    font-weight: bold;
-    border-radius: 4px;
+.get-all {
+  width: 300px;
+  height: 200px;
+  display: grid;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  justify-content: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  border-radius: 4px;
 }
 
-.post-one{
-    display: flexbox;
-    background-color: rgb(212, 216, 216);
-    padding: 10px;
-    justify-content: center;
+.get-one {
+  width: 300px;
+  height: 200px;
+  display: grid;
+  align-items: center;
+  /* margin: px; */
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  justify-content: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  border-radius: 4px;
 }
 
-main{
-    display: grid;
+.post-one {
+  display: flexbox;
+  background-color: rgb(212, 216, 216);
+  padding: 10px;
+  justify-content: center;
 }
 
-.btn-cls{
-    display: flex;
-    justify-content: center;
-    /* padding: 10px; */
+main {
+  display: grid;
 }
 
-.textp{
-    padding: 20px;
+.btn-cls {
+  display: flex;
+  justify-content: center;
+  /* padding: 10px; */
 }
 
-.btn{
-    width: 30%;
-    padding: 10px;
-    background-color: blue;
-    border: none;
-    border-radius: 4px;
-    font-size: 15px;
-    font-weight: bold;
-    color: azure;
-    transition: 1s;
+.textp {
+  padding: 20px;
 }
 
-.btn:hover{
-    background-color: rgb(31, 31, 184);
-    cursor: pointer;
+.btn {
+  width: 30%;
+  padding: 10px;
+  background-color: blue;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  color: azure;
+  transition: 1s;
 }
 
-.getAllStudents{
-    border-radius: 4px;
-    background-color: white;
-    padding:100px;
-     display: grid;
-    
-    text-align: center;
-    justify-content: flex-start;
-    align-items: center; 
+.btn:hover {
+  background-color: rgb(31, 31, 184);
+  cursor: pointer;
 }
 
-.getOneStudent{
-    border-radius: 4px;
-    background-color: rgb(53, 53, 53);
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    padding:100px;
-     display: grid;
-    
-    text-align: center;
-    justify-content: flex-end;
-    align-items: center; 
+.getAllStudents {
+  border-radius: 4px;
+  background-color: white;
+  padding: 100px;
+  display: grid;
+
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.get-head{
-    background-color: rgb(35, 34, 34);
-    padding: 10px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    display: flex;
-    justify-content: flex-start;
-    
+.getOneStudent {
+  border-radius: 4px;
+  background-color: rgb(53, 53, 53);
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  padding: 100px;
+  display: grid;
 
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.close{
-    margin-right: 3px;
-    margin-left: 3px;
-    background-color: rgb(235, 91, 91);
-    height: 10px;
-    width: 10px;
-    border-radius: 50px;
-    padding: 1px;
+.get-head {
+  background-color: rgb(35, 34, 34);
+  padding: 10px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.screen{
-    margin-right: 3px;
-    margin-left: 3px;
-    height: 10px;
-    width: 10px;
-    border-radius: 50px;
-    background-color: rgb(37, 150, 37);
-    padding: 1px;
-}
-.min{
-    height: 10px;
-    margin-right: 3px;
-    margin-left: 3px;
-    width: 10px;
-    border-radius: 50px;
-    background-color: rgb(193, 162, 8);
-    padding: 1px;
+.close {
+  margin-right: 3px;
+  margin-left: 3px;
+  background-color: rgb(235, 91, 91);
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  padding: 1px;
 }
 
-.form{
-    font-size: 20px;
+.screen {
+  margin-right: 3px;
+  margin-left: 3px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background-color: rgb(37, 150, 37);
+  padding: 1px;
+}
+.min {
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  width: 10px;
+  border-radius: 50px;
+  background-color: rgb(193, 162, 8);
+  padding: 1px;
 }
 
-
-.postOneStudent{
-    border-radius: 4px;
-    background-color: white;
-    padding:100px;
-     display: grid;
-    
-    text-align: center;
-    justify-content: flex-start;
-    align-items: center; 
+.form {
+  font-size: 20px;
 }
 
-.get-student-id{
-   
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
+.postOneStudent {
+  border-radius: 4px;
+  background-color: white;
+  padding: 100px;
+  display: grid;
+
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.text-field{
-    padding: 20px;
+.get-student-id {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
 }
 
-input{
-    padding: 7px;
-    margin-bottom: 10px;
+.text-field {
+  padding: 20px;
 }
 
-.post-students-all{
-    /* display: grid;
+input {
+  padding: 7px;
+  margin-bottom: 10px;
+}
+
+.post-students-all {
+  /* display: grid;
     justify-content: space-between;
     align-items: center;
     margin: 10px; */
 
-    width: 300px;
-    height: 300px;
-    display: grid;
-    align-items: center;
-    /* margin: px; */
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    justify-content: center;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    font-weight: bold;
-    border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  align-items: center;
+  /* margin: px; */
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  justify-content: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  border-radius: 4px;
 }
